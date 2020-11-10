@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_rotate"
+        android:title="그림회전"/>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_park"
+            android:title="박세리"/>
+        <item
+            android:id="@+id/item_son"
+            android:title="손예진"/>
+        <item
+            android:id="@+id/item_ahn"
+            android:title="안현모"/>
+    </group>
+</menu>
